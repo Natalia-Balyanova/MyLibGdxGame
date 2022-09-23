@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="12" height="110" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="18">
+ <tileset firstgid="1" name="tilesmap" tilewidth="16" tileheight="16" spacing="1" tilecount="4795" columns="7">
+  <image source="tilesmap.png" width="128" height="11648"/>
+ </tileset>
+ <tileset firstgid="4796" name="PngItem" tilewidth="16" tileheight="16" spacing="1" tilecount="3360" columns="60">
+  <image source="PngItem.png" width="1025" height="959"/>
+ </tileset>
+ <layer id="3" name="Слой тайлов 2" width="12" height="110">
+  <data encoding="base64" compression="zlib">
+   eJzt08ERABAQBMHL4YIkLwIlBMoH1f2e524EAAA3KhlRc71vs+0bPbzOR+AtPsuvbPvcAJQ4CYk=
+  </data>
+ </layer>
+ <layer id="1" name="Слой тайлов 1" width="12" height="110">
+  <data encoding="base64" compression="zlib">
+   eJztls1vjEEcx+eZ2XQ3ut3t03i71MUSUb3wH+CCCy5tL20vuCC44OKt9R6tg5ewCMUFF1xwwQX/iQsuSFBSn8ls84yJfebn0GRXOskn2SfzyXe/M8/z7I5Sf44LnY4JmITxTpU7ShWlBlKlBmEoddd5o8r8MN4IjKbuOm8sZn4H3k7YlbrrvNEb9OmN+LWgT03g+31i/e1+7MbbA3sF/W3ejOaDUSox8f42rwOvCCUT72/zuvAqUDXx+2XzHtPnCTzVsvU+w3sOL7RsvS/xXsFrLVvvG7y38E7L1nsM7zic0LL1nsY7A2eF653Am4SLwvVexrsCV4XrvYF3E24J13sX7x7cF/S3eQ/wHsIjYf/1ZaU2wMayrP8mvM2wpSzrvxVvG2y3+cV4/wG8QRiy+RHf5g3jjcAo9MXyi+65GYNxHe9j8+xzcw7Oa1kfP1/Sx8+X9PHz27GPnz8XfVZ5SPr4vqSP7//vfcL8WJ8wP/q+/2OfMF+yPz0ezfp84L/zo3F5vv++++/+Z9wv8NXk+9+Y/w4/YBoWFDJ3Ge6nwJ/BUTgJLC1kvnVXwMrA72C+CKWGv5z5WsNdA/2B34VTabiW1cz3NXHtWIizCLohtd9Dl7V465rsS8L8koLD5lcj98fmzWb3NPLzhs07yO/AITisZflH8I5qd26Q5J/EO6XduSGWnwR9khboc0lnZxJJn7rOziSSPlM6O5NI+lzjmb4OdSPrcxvvDkwZWR/fb4U+s25d2MfPl/Tx+7fj/rRaHz9/Lu7XdKLUT/iVyPpo3isDBeH75edL+vj57dhnH/u+Hw4I75fvS/r4/nyf+T6t1Kfdx2+R+7J2
+  </data>
+ </layer>
+ <objectgroup id="7" name="env">
+  <object id="11" x="87.5" y="11"/>
+  <object id="12" x="108.5" y="11"/>
+  <object id="13" x="130" y="11"/>
+ </objectgroup>
+ <objectgroup id="8" name="dyn">
+  <object id="14" x="56" y="1448.5"/>
+  <object id="15" x="24" y="1304.5"/>
+ </objectgroup>
+ <objectgroup id="9" name="hero">
+  <object id="16" name="Hero" x="111" y="816.5" width="15.5" height="30">
+   <properties>
+    <property name="RED" type="color" value="#ffaa0000"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
